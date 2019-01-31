@@ -4,22 +4,18 @@
      [hiccup.page]
      ))
 
-(ns clojure.examples.hello
-  (:gen-class))
 (defn hello-world []
   (println "Hello World"))
 (hello-world)
 
+
 (def sky (str "hello"))
+
 
 
 (defn desktoppage
   [request]
-  (html5
-
-[:head (include-js "myscript.js") (include-css "mystyle.css")
-
-
+  (html5 [:head (include-js "myscript.js") (include-css "mystyle.css")
 [:meta {:charset "utf-8"}]
 [:meta {:http-equiv "x-ua-compatible" :content "ie=edge"}]
 [:title "desktop page"]

@@ -1,12 +1,10 @@
 (ns desktop-page.core
-
 (:require [compojure.core :refer [defroutes GET]]
           [compojure.route :refer [not-found resources]]
           [desktop-page.handlers :as handler]
           [ring.middleware.reload :refer [wrap-reload]]
           [ring.adapter.jetty :as jetty]
-;;           [ring.handler.dump :refer [handle-dump]]
-          ))
+ ))
 
 (defroutes app
   (GET "/" [] handler/desktoppage)
