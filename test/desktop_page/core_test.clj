@@ -1,17 +1,20 @@
 (ns desktop-page.core-test
   (:require [clojure.test :refer :all]
-            [desktop-page.core :refer :all]))
+            [desktop-page.core :refer :all]
+            [clojure.test.check.generators :as gen]))
 
 (deftest a-test
   (testing "FIXME, I fail."
     (is (/ 0 1))))
 (is (= 4 (+ 2 2)))
 
+(def five (gen/choose 5 9))
+(gen/sample five)
+
 (deftest subtraction
   (is (= -8 (- 6 -2)))
  (is (= 8 (reduce + 1 [2 3]))
-))
-
+     ))
 (is (= 9 (+ 7 2)))
 
 (are [x y] (= x y)
