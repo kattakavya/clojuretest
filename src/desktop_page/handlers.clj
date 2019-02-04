@@ -4,11 +4,10 @@
      [hiccup.page]
      ))
 
-(ns clojure.examples.hello
-  (:gen-class))
-(defn hello-world []
+   (defn hello-world []
   (println "Hello World"))
 (hello-world)
+
 
 (def sky (str "hello"))
 
