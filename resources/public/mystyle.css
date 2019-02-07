@@ -1,0 +1,202 @@
+html,body
+{
+   height:100%
+}
+
+div,input,p,a{
+  -webkit-box-siziing:border-box;
+  -moz-box-sizing:border-box;
+   box-sizing:border-box;
+}
+
+#bgimg
+{
+   width:100%;
+   height:100%;
+   margin:0;
+   padding:0;
+   background-repeat:no-repeat;
+
+}
+
+.recyclebin
+
+{
+
+/*    left:50px; */
+/*    top:50px; */
+   width: 80px;
+/*  height: 80px; */
+   background-position:center;
+   background-repeat:no-repeat;
+   background-size:56px;
+   padding: 48px 60px 31px 1px;
+  background-size:contain;
+  border-radius:50%;
+
+}
+
+ .recyclebin .name
+{
+
+    padding: 22px 18px 40px 11px;
+    font-size: 20px;
+    width:100%;
+}
+
+.chrome
+
+{
+
+    width: 89px;
+    height: 57px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 55px;
+    padding:106px 48px 41px 8px;
+
+}
+
+ .chrome .zoom {
+
+    background-image:img/img5.svg ;
+
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+
+    transform: scale(0.1);
+} */
+.chrome .name
+{
+
+    padding: 2px 18px 40px 3px;
+    font-size: 20px;
+    width:100%;
+
+}
+
+
+.internetexplorer
+
+{
+
+    width: 89px;
+    height: 57px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 55px;
+    padding: 41px 2px 16px 1px;
+}
+
+.internetexplorer .name
+{
+
+    padding: 34px 22px 51px 0px;;
+    font-size: 20px;
+    width:100%;
+}
+.toolbars
+{
+    position: fixed;
+    background:  hsl(28, 88%, 50%);
+    width: 99%;
+    height: 45px;
+    padding: 10px 20px 10px 626px;
+    bottom: 0px;
+}
+
+.toolbars .windows
+{
+
+    height: 10px;
+    width: 30px;
+    padding: 14px 13px 30px 17px;
+    left: 4px;
+    position: absolute;
+    background-repeat: no-repeat;
+
+}
+
+.toolbars .battery
+{
+
+    position: absolute;
+    height: 25px;
+    width: 30px;
+    background-repeat: no-repeat;
+    right: 0px;
+    padding: 10px 14px 26px 23px;
+    bottom: 2px;
+}
+
+.toolbars .speaker
+{
+
+    position: absolute;
+    height: 25px;
+    width: 30px;
+    background-repeat: no-repeat;
+    right: 38px;
+    padding: 10px 14px 26px 23px;
+    bottom: 0px;
+    background-size:34px
+
+}
+
+.toolbars .wifi
+{
+
+    position: absolute;
+    height: 25px;
+    width: 30px;
+    background-repeat: no-repeat;
+    right: 80px;
+    padding: 11px 14px 26px 23px;
+    bottom: 0px;
+    background-size:34px
+
+}
+.toolbars .chrome
+{
+
+    position: absolute;
+    height: 36px;
+    width: 35px;
+    background-repeat: no-repeat;
+    left: 50px;
+    margin-left: 5px;
+    padding: 14px 14px 28px 25px;
+    bottom: 0px;
+    background-size: 36px;
+
+}
+
+.toolbars .useString
+{
+
+    position: absolute;
+    height: 36px;
+    width: 35px;
+/*     background-repeat: no-repeat; */
+    right: 123px;
+    margin-left: 5px;
+/*     padding: 11px 14px 28px 24px; */
+    bottom: 0px;
+/*     background-size: 36px; */
+
+}
+
+
+  #demo
+
+{
+  position:absolute;
+  right:300px;
+  bottom:0px;
+}
+
+
